@@ -1,0 +1,33 @@
+<h1>Workout Tracker</h1>
+<form id = "addForm" method="POST">
+  <fieldset>
+    <legend>Add workout</legend>
+    <label>Name:
+      <input type="text" name="name" id="name"></label>
+    <label>Reps:
+      <input type="number" name="reps" id="reps"></label>
+    <label>Weight:
+      <input type="number" name="weight" id="weight"></label>
+    <br>
+    <label>Date:
+      <input type="date" name="date" id ="date"></label>
+    <label>Unit:
+      <input type="radio" name="lbs" value="1" checked>lbs
+      <input type="radio" name="lbs" value="0">kg</label>
+    <input type="submit" id = "add" name="Add Workout" value="Add Workout">
+  </fieldset>
+</form>
+<table id="workoutTable">
+  <tr>
+    <th>Name</th>
+    <th>Reps</th>
+    <th>Weight</th>
+    <th>Date</th>
+    <th>Unit</th>
+    <th>Delete</th>
+    <th>Edit</th>
+  </tr>
+</table>
+
+
+
